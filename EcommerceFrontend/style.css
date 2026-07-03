@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #1a1a2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.checkout-card {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    width: 310px;
+}
+h2 {
+    text-align: center;
+    color: #16a085;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+label {
+    font-weight: 600;
+    color: #555;
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+}
+input {
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+input:focus {
+    border-color: #16a085;
+}
+button {
+    width: 100%;
+    background: #16a085;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #117a65;
+}
+#statusOutput {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 14px;
+}
